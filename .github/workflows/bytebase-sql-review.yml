@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: SQL advise
         run: |
-          API="https://devrel-demo.onrender.com/hook/sql-review/cdff45b7-9d5e-4345-91f8-74b963867df7-1698131642"
+          API="https://devrel-demo.onrender.com/hook/sql-review/cdff45b7-9d5e-4345-91f8-74b963867df7-1698131781"
           TOKEN="${{ secrets.SQL_REVIEW_API_SECRET }}"
           echo "Start request $API"
 
